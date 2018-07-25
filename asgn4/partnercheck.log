@@ -1,0 +1,8 @@
+partnercheck: ./PARTNER: format OK:
+username = nebrown
+passwd   = *
+uid      = 59433
+gid      = 100
+gecos    = Noah Edward Brown
+home     = /afs/cats.ucsc.edu/users/o/nebrown
+shell    = /bin/bash

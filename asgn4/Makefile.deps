@@ -1,0 +1,11 @@
+# Makefile.deps created Tue May 30 23:44:57 PDT 2017 by make
+astree.o: astree.cpp astree.h auxlib.h string_set.h lyutils.h yyparse.h
+lyutils.o: lyutils.cpp auxlib.h lyutils.h astree.h yyparse.h
+string_set.o: string_set.cpp string_set.h
+auxlib.o: auxlib.cpp auxlib.h
+symtable.o: symtable.cpp astree.h auxlib.h string_set.h lyutils.h \
+ yyparse.h symtable.h
+main.o: main.cpp string_set.h astree.h auxlib.h lyutils.h yyparse.h \
+ symtable.h
+yylex.o: yylex.cpp lyutils.h astree.h auxlib.h yyparse.h string_set.h
+yyparse.o: yyparse.cpp lyutils.h astree.h auxlib.h yyparse.h
